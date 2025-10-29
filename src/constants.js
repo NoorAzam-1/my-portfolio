@@ -28,7 +28,7 @@ import AshaTech from './assets/work_logo/AshaTech.png';
 import WaveVisas from './assets/work_logo/WaveVisas.png';
 import fireCommerce from './assets/work_logo/fireCommerce.png';
 import excelAnalytics from "./assets/work_logo/excelAnalytics.png"
-import blogpulse from "./assets/work_logo/blogpulse.png"
+import blogpulse from "./assets/work_logo/blogPulse.png"
 import schoolLogo from "./assets/education_logo/school.png"
 import ignouLogo from "./assets/education_logo/ignou.png"
 import tenthLogo from "./assets/education_logo/10.png"
