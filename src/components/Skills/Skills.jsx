@@ -45,6 +45,7 @@ const Skills = () => (
                     <img
                       src={skill.logo}
                       alt={`${skill.name} logo`}
+                      loading="lazy"
                       className="w-6 h-6 sm:w-8 sm:h-8"
                     />
                     <span className="text-xs sm:text-sm text-gray-300">

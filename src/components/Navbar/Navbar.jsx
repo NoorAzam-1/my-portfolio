@@ -55,13 +55,20 @@ const Navbar = () => {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#8245ec] ${
-                activeSection === item.id ? "text-[#8245ec]" : ""
-              }`}
+              className="cursor-pointer transform transition-transform duration-300 hover:scale-110"
             >
-              <button onClick={() => handleMenuItemClick(item.id)}>
+              <button
+                onClick={() => handleMenuItemClick(item.id)}
+                className={`relative inline-block text-gray-300 transition-all duration-300 ${activeSection === item.id ? "text-[#8245ec]" : "hover:text-[#8245ec]"
+                  }`}
+              >
                 {item.label}
+                <span
+                  className={`absolute left-0 bottom-[-4px] h-[2px] bg-[#8245ec] transition-all duration-300 ${activeSection === item.id ? "w-full" : "w-0 group-hover:w-full"
+                    }`}
+                ></span>
               </button>
+
             </li>
           ))}
         </ul>
@@ -104,7 +111,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Items */}
       {isOpen && (
-        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
+        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#030208] bg-opacity-80 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
           <ul className="flex flex-col items-center space-y-4 py-4 text-gray-300">
             {menuItems.map((item) => (
               <li
@@ -120,7 +127,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/Amankanojiya27"
+                href="https://github.com/NoorAzam-1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
@@ -128,7 +135,7 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/aman-kanojiya-a8b259286/"
+                href="https://www.linkedin.com/in/noor-azam-4354a1292/  "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"

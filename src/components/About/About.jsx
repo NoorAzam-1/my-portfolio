@@ -91,9 +91,12 @@ const About = () => {
           >
             <img
               src="/myImage.png"
-              alt="Aman Kanojiya"
-              className="w-full h-full rounded-full object-cover top-10 drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+              alt="Noor Azam"
+              loading="eager"
+              sizes="(max-width: 768px) 240px, (max-width: 1024px) 380px, 480px"
+              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
+
           </Tilt>
         </div>
       </div>
