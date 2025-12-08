@@ -39,7 +39,7 @@ const Work = () => {
                   src={project.image}
                   alt={project.title}
                   loading="lazy"
-                  className="w-full h-48 object-containt rounded-xl"
+                  className="w-full h-52 object-contain rounded-xl"
                 />
               </div>
               <div className="p-6">

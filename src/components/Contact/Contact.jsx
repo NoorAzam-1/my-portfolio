@@ -12,14 +12,12 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    console.log("Form data:", new FormData(form.current));
-
     emailjs
       .sendForm(
-        "service_tfm0t5p",
-        "template_j16r4he",
+        "service_g92cl3n",
+        "template_20tzsa6",
         form.current,
-        "8T0BqChkuoP9Prny_"
+        "_xOTPv-5s2jAHP3KV"
       )
       .then(
         (response) => {

@@ -1,9 +1,7 @@
-// components/BlurBlob.jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 
 const BlurBlob = ({ position, size }) => {
-  // Destructure position and size with default values
   const { top, left } = position
   const { width, height } = size 
 
@@ -25,7 +23,6 @@ const BlurBlob = ({ position, size }) => {
   );
 };
 
-// Define prop types
 BlurBlob.propTypes = {
   position: PropTypes.shape({
     top: PropTypes.string,
