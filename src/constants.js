@@ -24,10 +24,8 @@ import jwtLogo from "./assets/tech_logo/JWTLogo.png";
 import NodemailerLogo from "./assets/tech_logo/Nodemailer.png";
 import ashatech from "./assets/company_logo/ashatech.png";
 import vinitasri from "./assets/work_logo/vinitasri.png";
-import AshaTech from "./assets/work_logo/AshaTech.png";
 import WaveVisas from "./assets/work_logo/WaveVisas.png";
-import parayatanSarthi from "./assets/work_logo/prayatanSarthi.png";
-import fireCommerce from "./assets/work_logo/fireCommerce.png";
+import prayatanSarthi from "./assets/work_logo/prayatanSarthi.PNG";
 import excelAnalytics from "./assets/work_logo/excelAnalytics.png";
 import EBookStore from "./assets/work_logo/EBookStore.PNG";
 import blogpulse from "./assets/work_logo/blogPulse.png";
@@ -263,7 +261,7 @@ export const projects = [
     title: "ParayatanSarthi",
     description:
       "BlogPulse is your platform for sharing stories, insights, and ideas. We provide a clean, simple, and powerful space for writers and readers to connect.",
-    image: parayatanSarthi,
+    image: prayatanSarthi,
     tags: [
       "Next Js",
       "Tailwind Css",
