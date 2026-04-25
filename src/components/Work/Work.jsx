@@ -65,19 +65,19 @@ const Work = () => {
         </div>
 
         {selectedProject && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-            <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
-              <div className="flex justify-end p-4">
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-90 w-full">
+            <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full h-[80%] w-[90%] max-w-3xl overflow-auto relative">
+              <div className="flex justify-end py-2 px-4">
                 <button
                   onClick={handleCloseModal}
-                  className="text-white text-3xl font-bold hover:text-purple-500"
+                  className="text-white text-3xl font-bold hover:text-red-500"
                 >
                   &times;
                 </button>
               </div>
 
               <div className="flex flex-col">
-                <div className="w-full flex justify-center bg-gray-900 px-4">
+                <div className="w-full h-32 flex justify-center px-4">
                   <img
                     src={selectedProject.image}
                     alt={selectedProject.title}
